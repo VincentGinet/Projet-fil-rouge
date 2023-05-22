@@ -11,7 +11,7 @@
 	
 	<?php include("../login/login.php") ?>
 	
-	<a class="inscription" href="../controlleur/creation.php">Je n'es pas de compte</a>
+	<a class="inscription" href="../inscription/creation.php">Je n'es pas de compte</a>
 		
 	<?php include("../templates/template.php") ?>
 </body>

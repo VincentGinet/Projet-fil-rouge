@@ -1,11 +1,8 @@
 <?php
 // Informations de connexion à la base de données
-$databaseDNS        = 'mysql:host=localhost;dbname=projet_fil_rouge';
-$databaseUsername     = 'root';
-$databasePassword     = '';
-
-//require_once '../controlleur/create.php';
-// Connexion à la base de données
+$databaseDNS = 'mysql:host=localhost;dbname=projet_fil_rouge';
+$databaseUsername = 'root';
+$databasePassword = '';
 
 try {
     $db = new PDO($databaseDNS, $databaseUsername, $databasePassword);
@@ -14,9 +11,8 @@ try {
     die();
 }
 
+
 // Vérification de la connexion
 
-echo "Connexion réussie";
+//echo "Connexion réussie";
 ?>
-
-

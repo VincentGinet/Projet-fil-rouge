@@ -1,0 +1,1 @@
+<?php include "../templates/footer/footer_barre_outil_amis.php" ; ?>
